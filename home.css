@@ -1,0 +1,136 @@
+.home-container {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: gray;*/
+  
+}
+.left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /*background-color: red;*/
+  justify-content: flex-end;
+  align-items: center;
+  gap: 100px;
+  
+}
+
+.deff {
+  height: 450px;
+  width: 100%;
+ /* background-color: blue;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first {
+  display: flex;
+
+
+
+}
+.social-media {
+  display: flex;
+ /*background-color: rgb(16, 150, 34);*/
+  justify-content: flex-start;
+  gap: 37px;
+  
+  height: 150px;
+  width: 50%;
+  
+  
+
+}
+
+.middle {
+  display: flex;
+  
+
+  align-items: flex-end;
+  margin-bottom: 23px;
+  /*background-color: yellow;*/
+  width: 2.7%;
+  height: 100%;
+}
+
+.right {
+  display: flex;
+
+  align-self: flex-start;
+  /* background-color: green;*/
+  width: 29.16%;
+  height: 100%;
+  margin: 140px 237px 207px 130px;
+}
+
+.right > img {
+  width: 560px;
+  height: 733px;
+}
+
+.mouse-icon > img {
+  width: 52px;
+  height: 52px;
+}
+.sc1 > img {
+  width: 28.3px;
+  height: 22.7px;
+}
+.sc2 > img {
+  width: 28px;
+  height: 23px;
+}
+.sc3 > img {
+  width: 28px;
+  height: 27px;
+}
+.sc4 > img {
+  width: 27px;
+  height: 27px;
+}
+.sc5 > img {
+  width: 29px;
+  height: 20px;
+}
+
+.one > div {
+  color: black;
+
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35.25px;
+}
+.two > div {
+  color: black;
+
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 35.25px;
+}
+.second > div {
+  color: black;
+
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 70px;
+}
+
+.third > div {
+  color: black;
+
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23.5px;
+}

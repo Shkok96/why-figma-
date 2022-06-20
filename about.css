@@ -1,0 +1,157 @@
+.about-container {
+  width: 100%;
+  height: 1740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /*background-color: black;*/
+  margin: 100px;
+}
+
+.about-part1 {
+  width: 100%;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-part1-text1 > p {
+  font-family: Heebo;
+  font-size: 85px;
+  font-weight: 900;
+  line-height: 125px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-part1-text2 > p {
+  font-family: Heebo;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-part2 {
+  width: 100%;
+  align-self: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 182px;
+}
+
+.about-part2-text {
+  width: 788px;
+
+  border-radius: nullpx;
+}
+
+.about-part2-text > div {
+  font-family: Heebo;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-part2-image > img {
+  width: 626px;
+  height: 680px;
+}
+
+.about-part3 {
+    width: 100%;
+  align-self: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 375px;
+  /*background-color: aqua;*/
+}
+
+caption {
+  font-family: Heebo;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  height: 46px;
+  width: 463px;
+
+  border-radius: nullpx;
+}
+
+.about-part3-table {
+  gap: 80px;
+ /* background-color: red;*/
+}
+
+th {
+  font-family: Heebo;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+td {
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-part3-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-starts;
+    align-items: flex-end;
+
+    gap: 50px;
+  /*  background-color: green;*/
+}
+
+.about-part3-t1 {
+    height: 324px;
+width: 626px;
+
+
+border-radius: nullpx;
+
+}
+
+.about-part3-t1 > p {
+    /*font-family: Grape Nuts;
+font-size: 31px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: right;*/
+
+font-family: Grape Nuts;
+font-size: 64px;
+font-weight: 400;
+line-height: 78px;
+letter-spacing: 0em;
+text-align: right;
+
+/*font-family: Alex Brush;
+font-size: 31px;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: right;*/
+
+}
+
